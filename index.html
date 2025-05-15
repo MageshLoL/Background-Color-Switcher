@@ -1,0 +1,19 @@
+<html>
+    <title>Background Color Switcher</title>
+    <body color="red">
+        <button id = "red">Red</button>
+        <button>Blue</button>
+        <button>Green</button>
+        <button>Reset</button>
+    </body>
+    <script>
+        var c = 0;
+        function addThis(c){
+            console.log(c+1)
+            return c+1
+        }
+        var button = document.getElementById("red");
+        button.onclick = addThis(c);
+        //console.log(button)
+    </script>
+</html>
